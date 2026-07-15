@@ -48,7 +48,7 @@ python demo.py
 ### Workflow
 
 - Upload the image you want to edit.
-- Upload an original condition and its edited version (e.g., albedo).
+- Upload an original condition and its edited version (e.g., an albedo map). Example inputs are provided in [`assets/examples/`](assets/examples/).
 - Leave the other image inputs blank.
 - Select the appropriate adversarial target from the dropdown menu. For example, select "albedo" for an albedo edit.
 - Adjust the optimization parameters (e.g., number of steps and adversarial weight) and inversion method (`exact` or `DDIM`), then run the demo.
