@@ -1,0 +1,16 @@
+name: resedit
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+    - torch==2.7.1
+    - numpy
+    - pillow
+    - tqdm
+    - transformers==4.57.1
+    - sentencepiece
+    - accelerate
+    - diffusers
+    - gradio
+    - matplotlib
+    - protobuf
